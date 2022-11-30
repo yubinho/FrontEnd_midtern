@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/** custom css*/
+
+.mb-10{
+    margin-bottom: 80px;
+}
+
+.mt-6{
+    margin-top: 48px;
+}
+
+.pt-10{
+    padding-top: 80px;
+}
+
+.main-container{
+    max-width: 100%;
+}
+
+.nav {
+    background-color: #AA0601;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav img{
+    margin-top:12px;
+    margin-bottom: 12px;
+}
+
+.nav .item{       
+    display: flex;
+    color: #FFFFFF; 
+    font-size: 20px;
+    line-height: 30px;
+    justify-content: center;
+}
+
+.home-header{
+    color: #650300;
+    height: 767px;
+    background: url("../images/home-header.png");
+}
+
+.focus{
+    background-color: #FBF2F2;
+}
+
+.focus .title{
+    font-weight:bold;
+    font-size: 48px;
+    color: #650300;
+    line-height: 72px;
+    text-align: center;
+}
+
+.focus .list{
+    display:flex;
+    flex-direction: row;
+}
+
+.focus .list .item{  
+    color:#650300;
+    font-size:24px;
+    line-height: 36px;
+    margin: 0 auto; 
+    text-align: center;      
+    justify-content: center;
+}
+
+.focus .list .item .content{
+    color:black;
+    text-align: left;
+    font-size:16px;
+    line-height: 24px;
+}
+
+.classic .title{
+    font-weight:bold;
+    font-size: 48px;
+    color: #650300;
+    line-height: 72px;
+    text-align: center;
+}
+
+.classic .list{
+    display:flex;
+    flex-direction: row;
+}
+
+.classic .list .item{  
+    font-weight:bold;
+    color: #AA0601;
+    font-size: 48px;
+    line-height: 72px;
+    margin: 0 auto; 
+    text-align: center;      
+    justify-content: center;
+}
+
+.classic .list img{
+    width:416px;
+}
+
+.design{
+    height:608px;
+    background: url("../images/index-bg.png")
+}
+
+.design .title{
+    font-weight:bold;
+    font-size: 48px;
+    color:#FFFFFF;
+    line-height: 72px;
+    text-align: center;
+}
+
+.design .list{
+    display:flex;
+    flex-direction: row;
+}
+
+.design .list .item{ 
+    margin: 0 auto; 
+    text-align: center;      
+    justify-content: center;
+}
+.design .list .item img{
+    height:auto;
+    width:648px;
+}
+
+.recommend .title{
+    font-weight:bold;
+    font-size: 48px;
+    color: #650300;
+    line-height: 72px;
+    text-align: center;
+}
+
+.recommend .list{
+    display:flex;
+    flex-direction: row;
+}
+
+.recommend .list .item{  
+    justify-content: center;
+}
+
+.recommend .list .item img{
+    width:306px;
+}
+
+
+
+
+
+
+
